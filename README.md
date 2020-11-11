@@ -42,7 +42,7 @@ To publish changes:
 
 ```sh
 # Don't forget to increment the version number
-$ setup.py sdist bdist_wheel
+$ python setup.py sdist bdist_wheel
 $ python -m twine upload dist/*
 ```
 
