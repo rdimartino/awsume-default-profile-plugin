@@ -44,6 +44,8 @@ To publish changes:
 # Don't forget to increment the version number
 $ python setup.py sdist bdist_wheel
 $ python -m twine upload dist/*
+# Clean up build artifacts
+$ git clean -xdf
 ```
 
 See https://packaging.python.org/tutorials/packaging-projects/ for more detail.
